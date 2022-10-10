@@ -1,0 +1,118 @@
+@font-face {
+	font-family: 'proxima_nova_rgregular';
+	src: url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot');
+	src: url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.woff') format('woff'),
+		 url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.ttf') format('truetype'),
+		 url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'proxima_nova_rgbold';
+	src: url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.eot');
+	src: url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.woff') format('woff'),
+		 url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.ttf') format('truetype'),
+		 url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.svg#proxima_nova_rgbold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body{
+    margin: 0;
+    background-image: url('BG.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    
+}
+header{
+    width: 100%;
+    height: 100px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.menu{
+    height: 56px;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.div-logo{
+    display: flex;
+    align-items: center;
+}
+.login-bnt{
+    display: flex;
+    align-items: center;
+}
+.div-logo >img{
+    cursor: pointer;
+    width: 122px;
+    height: 28px;
+}
+.login-bnt >a{
+    font-family: 'proxima_nova_rgregular';
+    color: white;
+    text-transform: uppercase;
+    word-spacing: 3.5px;
+    cursor: pointer;
+    
+}
+section{
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 100vh;
+}
+section > h1{
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'proxima_nova_rgbold';
+    margin-top: 0;
+    margin-bottom: 16px;
+    letter-spacing: 0.5px;
+    line-height: 60px;
+}
+section > strong{
+    font-weight: 400;
+    font-family: 'proxima_nova_rgregular';
+    font-size: 18px;
+    color: white;
+    line-height: 1.375;
+}
+.bnts{
+display: flex;
+flex-direction: column;
+
+}
+.bnts >button{
+    font-family: 'proxima_nova_rgregular';
+    cursor: pointer;
+    padding: 15px;
+    text-align: center;
+    width: 350px;
+    height: 46px;
+    margin-top: 15px;
+    border: 0;
+    background-color: transparent;
+    color: white;
+    box-sizing: border-box;
+    border: 1px solid white;
+    font-weight: 600;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+
+}
+#bnt-blue{
+    border: 0;
+    background-color: #0037c5;
+    margin-top: 30px;
+    color: white;
+}
+    
